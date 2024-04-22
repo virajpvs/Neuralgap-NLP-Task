@@ -1,0 +1,4 @@
+torch
+numpy
+sentence-transformers
+nltk
