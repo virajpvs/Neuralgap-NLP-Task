@@ -9,6 +9,7 @@ from nltk.corpus import stopwords
 
 model_name = "paraphrase-MiniLM-L6-v2"
 model = SentenceTransformer(model_name)
+nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
 
 
@@ -136,5 +137,5 @@ def main():
                 st.text(f"{i+1}. {doc[:100]}")
 
 
-# if __name__ == "__main__": 
-main()
+if __name__ == "__main__": 
+    main()
