@@ -14,19 +14,6 @@ This project implements a web application using Streamlit for document retrieval
 - Torch (`pip install torch`) (consider using a GPU-compatible version for faster processing)
 - NLTK (`pip install nltk`)
 
-## Repository Stucture
-
-```
-document-retrieval-app/
-├── README.md
-├── requirements.txt
-├── data/
-│ ├── doc_1.txt
-│ ├── doc_2.txt
-│ └── ...
-├── nuralgap_task_demo_app.py
-```
-
 ## Installation and Setup
 
 **1. Create a virtual environment (recommended for dependency isolation):**  
